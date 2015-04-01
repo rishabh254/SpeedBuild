@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+
+    <TextView
+        android:id="@+id/intro_text"
+        android:layout_width="326dp"
+        android:layout_height="396dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/intro_text"
+        android:textColor="@color/bground"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

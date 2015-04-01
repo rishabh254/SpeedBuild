@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:padding="30dp"
+    android:background="@drawable/bg"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_weight="30"
+       android:layout_margin="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:background="@drawable/gradient"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_weight="12"
+        >
+
+        <TextView
+            android:id="@+id/answer1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+
+            android:background="@drawable/gradient"
+            android:layout_weight="50"
+            android:gravity="center" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/answer2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="50"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="12"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        >
+
+
+
+
+        <TextView
+            android:id="@+id/answer3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient"
+            android:layout_weight="50"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/answer4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="50"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="12"
+        android:weightSum="100"
+        >
+
+        <TextView
+            android:id="@+id/answer5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+
+            android:background="@drawable/gradient"
+            android:layout_weight="50"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/answer6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="50"
+            android:layout_margin="10dp"
+            android:background="@drawable/gradient"
+            android:gravity="center" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        >
+     <EditText
+         android:id="@+id/response"
+         android:layout_width="206dp"
+        android:textSize="25dp"
+         android:layout_marginTop="20dp"
+         android:layout_height="wrap_content"
+         android:hint="Enter your answer here ..."
+
+        android:gravity="center"
+
+
+         >
+
+
+     </EditText>
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/grad1"
+         android:text="Go" />
+    </LinearLayout>
+</LinearLayout>
